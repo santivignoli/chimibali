@@ -1,0 +1,50 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background:url('../img/fondo.jpg'); 
+    background-size: cover;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-dorado{
+    background: #D1A764;
+    border-radius: 0px;
+    border: none;
+    color: #FFF;
+    padding: 10px 50px;
+    font-weight: bold;
+}
+
+label{
+    padding: 0px 20px;
+}
+.form-group{
+    background: #F4F4F4;
+    padding: 5px 20px;
+}
+.form-control{
+    background: #F4F4F4;
+}
+
+.form-control2
+{
+    border: 0px; 
+    border-bottom: 1px solid #959595; 
+    border-radius: 0px;
+    width: 100%;
+}
