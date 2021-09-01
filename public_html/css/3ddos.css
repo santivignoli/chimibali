@@ -1,0 +1,802 @@
+.rojo-bg {background: #ec1c24}
+.rojo-f {color: #ec1c24}
+
+
+.transparent-header.full-transparent-header header.header.transparent-header-on {
+    background-color: #231f20;
+  
+}
+
+.area-1, .area-2{
+	 text-align: left;
+	font-family: 'Montserrat' !important;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 16px;
+  }
+
+ .area-1 h3, .area-2 h3{
+ 	     font-family: 'Montserrat';   
+    font-weight: 900;
+	 font-size: 21px;    
+    line-height: 21px;
+    color: #545454;
+    margin-top: 0px;
+
+  }
+
+
+   .area-1 p, .area-2 p{
+ 	     font-family: 'Montserrat';   
+    font-weight: 300;
+	 font-size: 16px;    
+    line-height: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    	line-height: 20px;
+  
+
+  }
+
+.bold{ 
+    font-family: 'Montserrat';   
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+  .semi_bold{
+    font-family: 'Montserrat Semi';  
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .regular{
+	font-family: 'Montserrat';	
+	font-weight: normal;
+	font-style: normal;
+  }
+
+  .light{
+  	 font-family: 'Montserrat';
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.black{
+	 font-family: 'Montserrat'; 
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular_1.eot');
+    src: url('fonts/Montserrat-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Regular_1.woff') format('woff'),
+        url('fonts/Montserrat-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+  .subtitulo_linea{   height: 7px; margin: left; margin-top: 6px;   background: #fff; }
+
+
+
+
+.fixed-header-on header.header {
+    background-color: #131313 !important;
+}
+
+header nav ul.nav-main li a {
+    
+   
+ color: #fff;
+     font-family: 'Montserrat' !important;
+     font-weight: 300;
+    font-style: normal;
+     font-size: 12px;
+}
+
+
+footer{
+	padding-top: 40px;
+	padding-bottom: 20px;
+
+	 background: #231f20; 
+}
+
+footer p {
+    font-family: 'Montserrat' !important;
+     font-weight: 300;
+    font-style: normal;   
+    font-size: 15px;
+    color: #FFF;
+}
+
+
+/*footer .btn-icono-header:hover {
+    color: #612c84;
+    background: #FFF;
+    border: 2px solid #FFF;
+    padding: 7px 0px 0px 0px;
+}*/
+
+
+footer .btn-icono-header {    
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+footer .btn-icono-header:hover {
+    color: #ec1c24;
+    background: none;
+    border: none;
+    padding: 7px 0px 0px 0px;
+}
+
+.btn-gojek{
+	float: right;
+	border: none;
+    font-size: 30px;
+	background: url(../img/gojek.png);
+	background-size: 96px 34px;
+	width: 96px;
+	height: 34px;
+	padding: 7px 0px 0px 0px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.btn-gojek:hover{
+	background: url(../img/gojek2.png);
+	background-size: 96px 34px;
+	color: #ec1c24;
+    border: none;
+}
+
+.btn-icono-header {
+	float: right;
+}
+
+.btn-icono-header:first-child {
+	margin-right: 0px;
+}
+
+
+footer .suturba img {
+    width: 150px;
+}
+
+
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=text],
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+textarea,
+textarea:focus {  
+    border: none !important;   
+    background-color: #231f20 !important;
+}
+
+
+#contacto input[type="text"] {
+      font-weight: 300;
+    font-style: normal;   
+    font-size: 14px;
+    color: #b5b5b5;
+}
+
+#contacto textarea{
+       font-weight: 300;
+    font-style: normal;   
+    font-size: 14px;
+    color: #b5b5b5;
+}
+
+
+#contacto input[type="submit"]{
+    border: none;
+    background: #ec1c24; 
+    font-family: 'Montserrat';   
+    font-weight: 900;
+    font-style: normal;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px;
+    border: solid 1px #ec1c24;
+}
+
+
+
+#contacto  input[type=submit]:hover {
+    color: #ec1c24 !important;   
+    background: #fff !important;
+    border: solid 1px #ec1c24;
+}
+
+#contacto{
+	background: none;	
+}
+
+
+#contacto h3 {   
+    font-size: 21px;    
+    line-height: 21px;
+    color: #545454;
+}
+
+#contacto .contacto1{     
+  background: #231f20;
+  padding-bottom: 40px;
+}
+
+#contacto .contacto2 {     
+   overflow: hidden;
+   background: url(../img/contacto_bg.png);
+}
+
+
+#contacto .contacto1 h3 {     
+    color: #fff;
+}
+
+#contacto .contacto1 .area-1 p {      
+    font-size: 17px;
+    color: #fff;
+    max-width: 300px;
+}
+
+#contacto .contacto1 .area-1{      
+   padding-top: 80px;
+   padding-bottom: 55px;
+   position: relative;
+}
+
+
+#contacto .contacto1 .area-2{      
+   padding-top: 150px;
+   padding-bottom: 0px;
+}
+
+#contacto .contacto1 a{      
+    background: none;
+    border: solid 1px #ec1c24;
+    color: #ec1c24;
+    font-family: 'Montserrat';   
+    font-weight: 900;
+    font-style: normal;
+    font-size: 14px;
+    padding: 14px 20px;
+    border-radius: 0px;
+}
+
+#contacto .contacto1 a:hover{      
+    background: #ec1c24;
+    border: solid 1px #ec1c24;
+    color: #FFF;
+    font-family: 'Montserrat';   
+    font-weight: 900;
+    font-style: normal;
+    font-size: 14px;
+    padding: 14px 20px;
+}
+
+
+#contacto .area-1 p {
+    font-family: 'Montserrat' !important;
+    font-weight: 300;
+    font-style: normal;   
+    font-size: 16px;
+    color: #545454;
+}
+
+#contacto .container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+#contacto .area-1 {    
+    padding-top: 80px;
+    padding-bottom: 130px;    
+}
+
+#contacto .area-2 {
+    text-align: left;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+
+#menu{
+	position: relative;
+	background: url('../img/menu_bg.jpg');
+	background-size: cover;
+}
+
+.menu{
+	-webkit-box-shadow: 18px 20px 0px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 18px 20px 0px 0px rgba(0,0,0,0.2);
+box-shadow: 18px 20px 0px 0px rgba(0,0,0,0.2);
+width: 100%;
+}
+
+#menu .img{
+	padding-top: 85px;
+	 padding-bottom: 85px;
+
+}
+
+
+
+#partner{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#partner p{
+	font-size: 15px;
+	/*max-width: 400px;*/
+
+}
+
+#partner .area-2 {   
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: right;
+}
+
+#partner .chorizo_img{
+	max-width: 530px;
+	width: 100%;	
+	margin-left: 0px;
+	/*margin-left: -130px;*/
+}
+
+
+.menu_cel:hover, .menu_cel:focus{
+	background: #ec1c24;
+}
+
+#contacto  .img_01{
+	position: absolute;
+	top: -10px;
+	right: 0px;
+}
+
+#contacto  .img_02{
+	position: absolute;
+	top: -110px;
+	left: -95px;
+	
+}
+
+.contacto_bg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 0;	
+}
+
+#info .frace{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	letter-spacing: 1px;
+	z-index: 1000;
+	margin-left: 40px;
+}
+
+.frace2{
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	letter-spacing: 1px;
+	z-index: 1000;
+}
+
+.frace2 .img_01{
+	max-width: 600px;
+}
+
+
+.logo{
+	margin-left: -5px;
+}
+
+footer .copy-suturba p{
+    /*font-size: 14px;*/
+}
+
+
+#contacto .contacto2{    
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#chef{
+	background: #231f20;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.chef_img{
+	width: 100%;
+	max-width: 500px;
+}
+
+#chef .bg{
+	height: 70px;
+	width: 100%;
+	/*background: red;*/
+	background: url(../img/chef_bgx2.png);
+	background-size: 408px 70px ;
+	margin-top: 90px;
+}
+
+#chef h3, #chef p{
+	color: #fff;
+}
+
+ #chef p{
+	font-size: 15px;
+}
+
+.sello{
+	position: absolute;
+	top: -160px;
+	right: 150px;
+	z-index: 100;
+
+}
+
+
+#info{
+	background: #f2f2f2;
+	padding-top: 100px;
+	padding-bottom: 70px;
+	overflow: none;
+}
+
+#info h3, #info p{
+	color: #545454;
+}
+
+#info p{
+	padding: 0px;
+	margin-top: 25px;
+}
+
+#info .frace{
+	border: solid 3px #ec1c24;
+	 padding: 27px;
+	 font-size: 18px;
+	 width: auto;
+	 height: auto;
+	 text-align: left;
+	 line-height: 25px;
+	 position: absolute;
+	 top: 160px;
+	 /*left: 0px;*/
+}
+
+.info_img{
+	position: absolute;
+	top: -210px;
+	right: -150px;
+	z-index: 1000;
+}
+
+
+#intro {
+	padding-top: 115px;
+	padding-bottom: 155px;
+	position: relative;
+
+
+}
+
+#intro p{
+	font-size: 17px;
+	padding: 0px;
+	margin-top: 25px;
+}
+
+#intro h3{
+	font-size: 27px;
+	line-height: 35px;
+}
+
+#intro .intro_img_01b{
+	margin: auto;
+	width: 270px;
+	margin-top: 20px;
+
+}
+
+#intro .intro_img_02{
+	position: absolute;
+	bottom: -30px;
+}
+
+.direccion p{
+	margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 770px){
+
+ .subtitulo_linea{    margin: auto; }
+
+
+
+.area-1, .area-2{
+	 text-align: center;
+  }
+
+.area-1 p, .area-2 p{
+	 max-width: none;
+	
+  }
+
+
+
+ .area-1 h3, .area-2 h3{
+ 
+
+  }
+
+#partner {
+	text-align: center;	
+	padding: 0px;
+	padding-top: 20px;
+}
+
+#partner .chorizo_img{	
+	margin-left: 0px;
+	width: 100%;
+}
+
+#menu .img{
+	padding-top: 20px;
+	 padding-bottom: 20px;
+}
+
+
+
+.menu{
+	margin: auto;
+	width: 96%;
+-webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
+box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.2);
+padding: 0px;
+}
+
+
+#contacto .contacto1 .area-1 p {
+padding: 20px 20px;    
+    max-width: none;
+
+}
+
+#contacto .area-1{
+    text-align: center;
+
+}
+
+#contacto .contacto1 .area-1  {    
+    /*overflow: hidden;*/
+}
+
+
+#contacto .contacto1 .area-2  {    
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+}
+
+#contacto .contacto2{    
+    padding-top: 20px;
+     padding-bottom: 0px;
+    
+}
+
+#contacto .contacto2 .area-1  {    
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+#contacto .contacto2 .area-2  {    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 75px;
+}
+
+#contacto  .img_01{
+	width: 100%;
+	position: relative;
+	margin-top: 20px;
+}
+
+
+#contacto  .img_02{	
+	top: -90px;
+	left: -150px;
+}
+
+#contacto  .img_03{
+	position: absolute;
+	top: 40px;
+	right: -430px;
+}
+
+.contacto_bg{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 0;	
+}
+
+.btn_send{
+	margin: auto;
+}
+
+#contacto input[type="submit"]{
+  
+ margin: auto;
+ left: 50%;
+ margin-left: -42px;
+ margin-top: 10px;
+
+  
+}
+
+#info .frace{
+	line-height: 70px;
+	margin-left: 0px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.frace2{
+	height: 70px;
+}
+
+.frace2 .img_01{
+	width: 90%;
+	margin-top: -25px;
+}
+
+footer{
+	text-align: center;
+	padding-top: 20px;
+}
+
+footer p{
+	font-size: 12px;
+}
+
+
+.logo{
+	margin-left: 0px;
+	width: 150px;
+}
+
+.direccion{
+	margin-bottom: 0px;
+}
+.direccion p{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.redes{
+	width: 198px;	
+	margin: auto;
+}
+
+
+
+footer .copy-suturba {
+	margin-top: 0px;
+    padding-top: 20px;
+    background: none;
+}
+
+footer .copy-suturba p{
+    margin-bottom: 0px;
+
+   
+}
+
+
+#chef{	
+	padding-top: 125px;
+	padding-bottom: 20px;
+}
+
+
+#chef .bg{
+	height: 70px;
+	margin-top: 50px;
+}
+
+ #chef p{
+	font-size: 16px;
+}
+
+
+.sello{
+	top: -87px;
+	left: 50%;
+	margin-left: -87px;
+	width: 175px;
+}
+
+
+#info p{
+	font-size: 16px;
+}
+
+#info{
+	padding-bottom: 480px;
+	overflow: hidden;
+}
+
+
+.info_img{	
+	top: 80px;
+	right: -120px;
+	width: 400px;
+
+}
+
+#info .frace{
+	top: -50px;
+}
+
+
+
+#intro {
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+
+#intro p{
+	font-size: 16px;
+	
+}
+
+#intro h3{
+	font-size: 21px;
+	line-height: 25px;
+}
+
+#intro .intro_img_02{
+	/*bottom: 0px;*/
+}
+
+
+
+
+}
